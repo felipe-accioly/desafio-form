@@ -20,7 +20,6 @@ body{
 .container .informations{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     max-width: 500px;
 }
@@ -45,11 +44,35 @@ body{
     padding: 20px;
 }
 
-.container .form .input{
+.container .form .nome{
     border: 1px solid black;
     background-color: #fff;
     height: 30px;
     padding: 5px;
+    width: 100%;
+}
+.container .form .email{
+    border: 1px solid black;
+    background-color: #fff;
+    height: 30px;
+    padding: 5px;
+    width: 100%;
+}
+.container .form .mensagem{
+    border: 1px solid black;
+    background-color: #fff;
+    height: 90px;
+    padding: 5px;
+    width: 100%;
+}
+
+
+.container .form .telefone{
+    border: 1px solid black;
+    background-color: #fff;
+    height: 30px;
+    padding: 5px;
+    width: 100%;
 }
 
 .container .form input[type="text"]:nth-of-type(4){
@@ -61,6 +84,15 @@ body{
     background-color: #fff;
     height: 30px;
     padding: 5px;
+    width: 100%;
+}
+
+.container .form .input-mensagem-error{
+    border: 1px solid red;
+    background-color: #fff;
+    height: 90px;
+    padding: 5px;
+    width: 100%;
 }
 
 
@@ -69,4 +101,27 @@ body{
     background-color: #3ccc87;
     color: #fff;
     height: 90px;
+}
+
+
+.obrigatorio-1{
+    display: none;
+}
+
+.obrigatorio-2{
+    display: none;
+}
+
+.obrigatorio-3{
+    display: none;
+}
+
+.obrigatorio-4{
+    display: none;
+}
+
+.obrigatorio-aparece{
+    display: block;
+    color: red;
+    font-size: 10px;
 }

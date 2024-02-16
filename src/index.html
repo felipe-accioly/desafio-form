@@ -23,14 +23,26 @@
         </div>
 
         <div class="form">
-            <input type="text" name="nome-completo" id="nome-completo" placeholder="Nome Completo *" class="input">
+            <div class="nome-formulario">
+                <input type="text" name="nome-completo" id="nome-completo" placeholder="Nome Completo *" class="input nome">
+                <p class="obrigatorio-1">preencha todas as infos*</p>
+            </div>
 
-            <input type="text" name="email" id="email" placeholder="Email *" class="input">
+            <div class="email-formulario">
+                <input type="text" name="email" id="email" placeholder="Email *" class="input email">
+                <p class="obrigatorio-2">preencha todas as infos*</p>
+            </div>
 
-            <input type="text" name="telefone" id="telefone" placeholder="Telefone *" class="input">
+            <div class="telefone-formulario">
+                <input type="text" name="telefone" id="telefone" placeholder="Telefone *" class="input telefone">
+                <p class="obrigatorio-3">preencha todas as infos*</p>
+            </div>
 
-            <input type="text" name="mensagem" id="mensagem" placeholder="Mensagem *" class="input">
-            <p>*campos obrigatórios</p>
+            <div class="mensagem-formulario">
+                <input type="text" name="mensagem" id="mensagem" placeholder="Mensagem *" class="input mensagem tam-mensagem">
+                <p class="obrigatorio-4">preencha todas as infos*</p>
+                <p>*campos obrigatórios</p>
+            </div>
 
             <button class="btn" id="btn" onclick="clicarBotao()">Enviar</button>
         </div>
