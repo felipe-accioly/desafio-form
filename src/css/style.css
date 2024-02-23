@@ -77,11 +77,11 @@ body{
 }
 
 .valido{
-    border: 1px solid #3ccc87;
+    border: 1px solid #3ccc87 !important;
 }
 
 .erro{
-    border: 1px solid red;
+    border: 1px solid red !important;
 }
 
 .mostrar{

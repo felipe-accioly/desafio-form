@@ -1,7 +1,7 @@
 # Criação de Formulário com validação
 
 
-![Giff do Design do formulário criado](src/images/giff-formulario.gif)
+![Giff do Design do formulário criado](src/images/giff-form.gif)
 
 ## Bem vindo! 👋
 
