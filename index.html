@@ -22,31 +22,34 @@
                 em menos de 24h.</p>
         </div>
 
+        <form action="" class="form">
+            <div class="form-control">
+                <label for="nome"></label>
+                <input type="nome" name="" id="text" placeholder="Nome Completo *" class="input">
 
-        <form action="" class="formulario">
+                <span class="campo-obrigatorio esconder">Campo obrigatorio</span>
 
-            <div class="input-usuario">
-                <input type="text" name="nome-completo" id="nome" placeholder="Nome Completo *" class="campo">
-                <label for="nome">preencha todas as infos*</label>
-            </div>
-            
-            <div class="input-usuario">
-                <input type="text" name="email" id="email" placeholder="Email *" class="campo">
-                <label for="email">preencha todas as infos*</label>
+                <label for="email"></label>
+                <input type="text" id="email" placeholder="E-mail *" class="input">
+
+                <span class="campo-obrigatorio esconder">Campo obrigatorio</span>
+
+                <label for="numero"></label>
+                <input type="number" name="" id="numero" placeholder="Telefone *" class="input">
+
+                <span class="campo-obrigatorio esconder">Campo obrigatorio</span>
+
+                <label for="mensagem"></label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" class="input" placeholder="Mensagem *"></textarea>
+
+                <span class="campo-obrigatorio esconder">Campo obrigatorio</span>
+                <br>
+                <button type="submit" class="btn">Enviar</button>
+
+
             </div>
 
-            <div class="input-usuario">
-                <input type="number" name="telefone" id="telefone" placeholder="Telefone *" class="campo">
-                <label for="telefone" >preencha todas as infos*</label>
-            </div>
-            
-            <div class="input-usuario">
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem *" class="campo"></textarea>
-                <label for="mensagem">preencha todas as infos*</label>   
-            </div>
-            
 
-            <button type="submit" class="btn">Enviar</button>
         </form>
 
         <!-- <div class="form">
@@ -70,11 +73,9 @@
                 <p class="obrigatorio-4">preencha todas as infos*</p>
                 <p>*campos obrigatórios</p>
             </div>
-            
 
-            <button type="submit" class="btn" onclick="clicarBotao()">Enviar</button> -->
-
-        </div>
+            <button class="btn" id="btn" onclick="clicarBotao()">Enviar</button>
+        </div> -->
     </main>
 
     <script type="text/javascript" src="index.js"></script>
